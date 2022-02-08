@@ -26,6 +26,7 @@ jobs:
 
       - name: Build app
         run: |
+          sed -i 's/.*publicPath.*/  publicPath: "\/patient-form-home-assignment\/",/g' ./vue.config.js
           yarn build
 
       - name: Deploy to GitHub Pages
