@@ -1,0 +1,24 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: $font-size;
+	line-height: $font-line-height;
+
+	background-color: $bg-color;
+	color: $text-color;
+}
+
+html,
+body,
+#app-mount {
+	min-height: 100vh;
+}
+
+a {
+	color: $text-color;
+	text-decoration: unset;
+}
+
+*::selection {
+	color: #ffffff;
+	background: $accent-color;
+}

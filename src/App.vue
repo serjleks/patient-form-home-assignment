@@ -1,26 +1,38 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="app-mount">
+    <AppLayout>
+      <template v-slot:sidebar>
+        <AppSidebar></AppSidebar>
+      </template>
+
+      <template v-slot:header>
+        <AppHeader></AppHeader>
+      </template>
+
+      <template v-slot:page>
+        <PatientPage></PatientPage>
+      </template>
+    </AppLayout>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import AppLayout from "@/layouts/AppLayout";
+import AppSidebar from "@/components/AppSidebar";
+import AppHeader from "@/components/AppHeader";
+import PatientPage from "@/pages/PatientPage";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    AppLayout,
+    AppSidebar,
+    AppHeader,
+    PatientPage,
   },
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
+@import "scss/style";
 </style>
