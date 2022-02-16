@@ -102,7 +102,7 @@ export default {
   }
 
   &__errors {
-    padding-top: $space-medium;
+    padding-top: $space-small;
     padding-bottom: 0;
     color: $ui-error-color;
 
