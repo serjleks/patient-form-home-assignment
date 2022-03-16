@@ -1,5 +1,9 @@
 # patient-form-test-assignment
 
+## Github-Pages
+
+**[Github-Pages](https://serjleks.github.io/patient-form-test-assignment)**
+
 ## Figma
 
 Figma project **[Here](https://www.figma.com/file/hnV8rGHNANNrhG1z9UMfre/patient-form-ui)**.
