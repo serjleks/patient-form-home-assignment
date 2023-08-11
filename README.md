@@ -2,7 +2,7 @@
 
 ## Github-Pages
 
-**[Github-Pages](https://serjleks.github.io/patient-form-test-assignment)**
+**[Github-Pages](https://sjlex.github.io/patient-form-test-assignment)**
 
 ## Figma
 
